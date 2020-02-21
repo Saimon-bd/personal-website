@@ -1,0 +1,132 @@
+body{
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h4{
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:  #000;
+}
+button{
+    width: 15%;
+    border: 0.5px solid #f156ab;
+    border-radius: 25px;
+    background-color: #f156ab;
+    margin: 0;
+    height: 2px;
+}
+
+.color-hightlight{
+    color:  #BB2C0E;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.color-hightlight:hover{
+    color:#f156ab;
+}
+p{
+    color:dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header{
+    background-image: url(images/header-bg.png);
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #f156ab;
+    
+}
+.biography {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+    
+
+.latest-work h3{
+    text-align: center;
+    color: rgb(18, 16, 119);
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.latest-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+   
+}
+.latest-width img{
+    width:100%;
+}
+.latest-work {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+.client-text{
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.client-comment {
+    font-weight: 700;
+    color: rgb(95, 84, 84);
+   
+    text-align: justify;
+    width: 50%;
+    margin-left: 26%;
+}
+#my-email{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-radius: 12px;
+    background-color:  #f156ab;
+    color:#fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding:10px 20px;
+}
+.client-review{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+}
+footer{
+    text-align: center;
+    margin-top: 5%;
+}

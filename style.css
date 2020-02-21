@@ -5,36 +5,12 @@ body{
     
 
 }
-h3{
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-h4{
-    font-weight: 900;
-    letter-spacing: 1px;
-    font-size: 20px;
-    color:  #000;
-}
-button{
-    width: 15%;
-    border: 0.5px solid #f156ab;
-    border-radius: 25px;
-    background-color: #f156ab;
-    margin: 0;
-    height: 2px;
-}
 
-.color-hightlight{
-    color:  #BB2C0E;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-.color-hightlight:hover{
-    color:#f156ab;
-}
-p{
-    color:dimgray;
+/*----------- Head Area CSS Style -----------*/
+.header{
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    height: 657px;
 }
 .half-width{
     width: 40%;
@@ -42,16 +18,35 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
+
+
+.half-width h1{
+    font-size: 40px;
+    margin-top: 18%;
+    
+}
+.half-width h2{
+    color: #ec4c7a;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.half-width p{
+    color: #707070;
+
+
+}
+
+
+
+
 .half-width img{
     width: 100%;
+    
+    
 }
-.header{
-    background-image: url(images/header-bg.png);
-}
-section{
-    height: 500px;
-    background-repeat: no-repeat;
-}
+
+
 .link-button{
     text-decoration: none;
     background-color: orange;
@@ -59,74 +54,126 @@ section{
     color: #fff;
     border-radius: 5px;
     font-weight: 700;
-    background-color: #f156ab;
+    background-image: linear-gradient( 45deg, #ec4f91,#ed4b73);
+   
+    
     
 }
-.biography {
+
+/* --------------Biography-area CSS Style ------------------*/
+.biography-area {
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100%;
+    background-size: cover;
+    height: 657px;
+    padding: 100px 0;
 }
+button{
+    width: 17%;
+    border: 1px solid #f156ab;
+    border-radius: 25px;
+    background-color: #f156ab;
+    margin: 0;
+    height: 2px;
     
-
-.latest-work h3{
+}
+.half-width h3{
+    color: #000;
+    font-size: 40px;
+}
+/* -------------- Latest Work CSS Style ---------------------*/
+.latest-work h2{
     text-align: center;
-    color: rgb(18, 16, 119);
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     
 }
 .latest-width{
     width: 25%;
     float: left;
-    margin-left: 5%;
-    padding-left: 1%;
+    margin-left: 6%;
+    
+    
    
 }
 .latest-width img{
     width:100%;
+   
 }
 .latest-work {
     background-image: url(images/latest-work-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100%;
+    height: 657px;
+    background-size: cover;
+
+/*----------------Client Review Area ---------*/
+
+
+
+
+
 }
-.client-text{
+.client-area h1 {
+    font-size: 40px;
     text-align: center;
-    letter-spacing: 1px;
-    
 }
-.client-comment {
-    font-weight: 700;
-    color: rgb(95, 84, 84);
-   
-    text-align: justify;
-    width: 50%;
-    margin-left: 26%;
+.client-area h4 {
+    text-align: center;
+    margin: 4px 0;
 }
-#my-email{
+.client-area h6 {
+    text-align: center;
+    color: #707070;
+    font-weight: 300;
+    margin: 0;
+    font-size: 14px;
+}
+.client-area p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#email-info {
+    padding: 50px 0px;
+    background-image: linear-gradient( 45deg, #ec4f91,#ed4b73);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    border-radius: 12px;
-    background-color:  #f156ab;
+    margin: auto;
+}
+#email-info h6 {
+    color:#fff;
+}
+#email-info h3 {
     color:#fff;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding:10px 20px;
+    font-weight: 400;;
 }
-.client-review{
-    background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 100%;
-}
-footer{
+footer p {
     text-align: center;
-    margin-top: 5%;
+    color: #707070;
 }
+
+.follow-me {
+    text-align: center;
+}
+.follow-me h1{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+.social-icon img {
+    width: 50px;
+    height: 50px;
+    transition: 0.2s linear;
+}
+.social-icon img:hover{
+    transform: scale(1.4);
+    height: 60px;
+    width: 60px;
+}
+.client-area {
+    background-image: url("images/footer-bg.png");
+    height: 657px;
+    background-size: cover;
+    padding: 100px 0px;
